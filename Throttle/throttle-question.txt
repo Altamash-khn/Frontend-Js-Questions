@@ -1,0 +1,17 @@
+Write a throttlefunctionthattakesinarequiredcallbackfunctionandarequireddelayinmilliseconds.
+
+Calling throttle(callback, delay) should return a new "throttled" version of the callback function, which takes in the
+same parameters as the callback, and which, when executed, should call the callback function a maximum of one time
+per delay interval.
+
+The first time the throttled function is called, the underlying callback should run immediately. If the throttled 
+function is called again before the delay has passed, the next call to the underlying callback should be scheduled for 
+delay milliseconds after the last call to the callback. If the throttled function is called multiple times in a delay
+interval, the arguments from the last call should be used.
+
+For example, repeatedly and continuously calling a throttled function which had a delay of 3000ms would call the underlying callback function exactly once every 3 seconds.
+
+The throttle function should also add a cancel method to the throttled function (remember, functions are just objects).
+When this method is called, any scheduled callback should be cancelled.
+
+Note that the underlying callback functions should have the this context of the throttled-function callers.
