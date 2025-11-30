@@ -1,0 +1,2 @@
+1. You can use the queueMicrotask(callback) function to run a callback function asynchronously after all other code completes running.
+2. Try using an instance variable of an array to keep track of any callbacks passed to then or catch that need to be run in the future.

@@ -1,0 +1,5 @@
+1. To get started, try taking this problem in small steps. How would you write a function that returns a new function that calls callback parameter? Then how can you delay execution of that callback?
+2. setTimeout can be used to delay execution of the callback function. For example, setTimeout(callback, 1000) would call the callback after one second.
+3. setTimeout returns an ID that can be passed to the clearTimeout function to stop the callback from running. This can be combined with another call to setTimeout to reset a timeout.
+4. setTimeout executes code in a different context, and thus it loses the reference to this by default. How can you ensure the callback is executed with the expected this context?
+5. The call or apply method can be used to call a function with a specific this context. For example, func.apply(obj, args) would call func with obj bound to this and the args array passed as arguments.

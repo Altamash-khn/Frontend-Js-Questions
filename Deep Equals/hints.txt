@@ -1,0 +1,5 @@
+1. The typeof operator can be used to get the type of a value. For example, typeof 5 returns "number".
+2. Since arrays are objects, typeof [] is "object", but there is an Array.isArray method to check if a value is an array.
+3. The typeof operator can have some weird behavior. For example, typeof null returns "object", and typeof NaN returns number.
+4. NaN == NaN returns false, so this will need to be special cased. You can check if a value is NaN with the Number.isNaN method.
+

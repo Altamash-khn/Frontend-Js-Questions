@@ -1,0 +1,4 @@
+1. Each of these methods should return a new Promise, so the bulk of your code should be written inside of executor functions for those Promises.
+2. A Promise can be created with the Promise constructor, which takes in an executor function (which itself takes in resolve and reject functions). For example new Promise((resolve, reject) => { resolve(5); })
+3. You can add then and catch chains to the Promises to run code after they settle.
+

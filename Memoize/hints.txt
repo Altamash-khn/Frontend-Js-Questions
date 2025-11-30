@@ -1,0 +1,2 @@
+1. JavaScript objects cannot have keys other than strings and symbols, so you will need to use Map instead.
+2. The Map object has methods for clear, delete, and has, which can all be useful here for the required methods with the same names.

@@ -1,0 +1,2 @@
+1. The Promise.all(promises) function can be used to wait for multiple promises to resolve at once.
+2. The arr.sort((valueA, valueB) => {}) function can be used to sort an array with a custom sorting function. If the comparison function returns a negative number, then valueA is sorted before valueB. If it returns a positive number, then valueB is sorted before valueA.

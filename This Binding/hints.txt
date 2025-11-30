@@ -1,0 +1,6 @@
+1. Think about how this binding works. How can a function be invoked with an object as its this context?
+2. A function can be invoked with an object as its this context if that function is a value in the object.
+3. A Symbol can be created with the Symbol() function and used as an object key. These are unique and will not affect standard iteration.
+4. The delete keyword can be used to remove a key from an object.
+5. The ...spread operator can be used to pass an array of values as individual arguments to a function.
+6. These three functions are very similar to each other. Can you implement the last two by simply calling your first function?

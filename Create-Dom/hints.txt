@@ -1,0 +1,3 @@
+1. A text node can be created with document.createTextNode(text) and an element node can be created with document.createElement(type).
+2. Not all attributes have a corresponding property of the same name, so the safest way to dynamically add attributes is with the element.setAttribute(attribute, value) function.
+

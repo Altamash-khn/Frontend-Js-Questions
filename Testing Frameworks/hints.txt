@@ -1,0 +1,3 @@
+1. It can be helpful to define the return value of expect using a class, with the actual value as an argument to the constructor.
+2. The typeof operator can be used to get the type of a value. For example, typeof 10 would return the string number.
+3. A try/catch statement can be used to catch errors and instead print out their messages.

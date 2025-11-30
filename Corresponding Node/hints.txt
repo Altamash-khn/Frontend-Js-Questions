@@ -1,0 +1,2 @@
+1. Try breaking this problem into two parts. First, find the path from the root of tree1 to node1. Next follow that same path in tree2 to find the corresponding node in that tree.
+2. There are two primary ways to find the path to the node. One option is to use a traditional tree algorithm such as bfs or dfs. However, since DOM nodes all have a parentNode property, it is possible to simply iterate directly up the tree.

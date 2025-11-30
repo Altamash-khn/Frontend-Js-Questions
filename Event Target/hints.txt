@@ -1,0 +1,4 @@
+1. What information does the dispatchEvent method need to dispatch an event? What would be the most appropriate data structure for this information?
+2. It can be helpful to keep a mapping from event names to the associated callback functions.
+3. The hasOwnProperty method can be used to check if an object contains a property. This is safer than the in keyword, because it won't accidently look at inherited properties. For example, obj.hasOwnProperty('foo') would return true if foo is a property of obj.
+

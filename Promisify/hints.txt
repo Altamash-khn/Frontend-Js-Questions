@@ -1,0 +1,4 @@
+1. A Promise can be created with new Promise(executorFunction) with the executorFunction taking in callback functions for resolving and rejecting the Promise.
+2. The callback passed to promisify takes another callback function as its last parameter. This callback takes in an an error and value. When should the original callback be called? What should the nested callback do with the error and value?
+3. The call or apply method can be used to call a function with a specific this context. For example, func.apply(obj, args) would call func with obj bound to this and the args array passed as arguments.
+
